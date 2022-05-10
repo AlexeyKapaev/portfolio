@@ -1,0 +1,415 @@
+/* NAV START */
+#logo-img {
+  width: 60px;
+  border-radius: 50%;
+}
+.navbar-brand {
+  padding: 0;
+}
+.navbar-brand p {
+  margin-bottom: 0;
+  text-shadow: 1px 1px 1px #a2c9b5;
+}
+.navbar-brand p:hover,
+.navbar-brand p:active {
+  color: #b1b5b5;
+}
+.nav-item {
+  margin-left: 20px;
+}
+.navbar-toggler {
+  visibility: hidden;
+}
+/* NAV END */
+
+/* FOOTER START */
+.footer-class {
+  background-color: #222;
+  color: white;
+}
+#contact {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#contact p {
+  display: inline-block;
+  margin: 15px;
+}
+#contact span {
+  font-size: 1.1em;
+}
+#contact a {
+  color: lightskyblue;
+}
+
+#contact a:hover,
+#contact a:active {
+  color: darkgray;
+}
+/* FOOTER END */
+
+/* HOME START */
+#home-content {
+  height: 650px;
+}
+#person-img {
+  width: 45%;
+  border-radius: 70%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 0.4em;
+  margin-bottom: 4em;
+}
+.fw-light {
+  margin-bottom: 30px;
+}
+/* HOME END */
+
+/* HOBBIES START */
+#football-img img,
+#music-img img,
+#reading-img img,
+#modeling-img img {
+  width: 400px;
+}
+#football-img p,
+#music-img p,
+#reading-img p,
+#modeling-img p {
+  font-size: 130%;
+}
+#football-img p {
+  padding-top: 250px;
+}
+#music-img p {
+  padding-top: 160px;
+}
+#reading-img p {
+  padding-top: 25px;
+}
+#modeling-img p {
+  padding-top: 125px;
+}
+#hr-border {
+  width: 100%;
+  height: 6px;
+  color: #222;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* HOBBIES END */
+
+/* PERSIONAL INFORMATOIN START*/
+#safe-page {
+  height: 800px;
+  background-image: url("../images/safe-img.jpg");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 50%;
+  background-size: 80%;
+  opacity: 0.7;
+}
+#safe-page > div {
+  background-color: #b1b5b5;
+  opacity: 0.85;
+  height: 200px;
+  border-radius: 20%;
+}
+#safe-page h1 {
+  margin-top: 250px;
+  font-weight: bold;
+  font-size: 500%;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+/* PERSIONAL INFORMATOIN END */
+
+/* PERSONALITY CHARACTERISTIC START*/
+#characteristic {
+  height: 800px;
+  background-color: #dfe1c9;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#characteristic h2 {
+  color: red;
+  text-shadow: 1px 3px 5px #000000;
+  margin-bottom: 60px;
+}
+#characteristic p {
+  text-align: left;
+  font-size: 150%;
+}
+/* PERSONALITY CHARACTERISTIC END */
+
+/* EDUCATION START */
+.body-bg-color {
+  background-color: #cfd3d0;
+}
+#education {
+  height: 800px;
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#education > div {
+  margin-bottom: 50px;
+}
+#education h3 {
+  margin-bottom: 20px;
+  font-size: 170%;
+}
+#education li {
+  font-size: 135%;
+  margin-bottom: 15px;
+}
+/* EDUCATION END */
+
+/* SPACIALITY START */
+#spaciality {
+  height: 800px;
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#spaciality > div {
+  margin-bottom: 50px;
+}
+#spaciality h3 {
+  margin-bottom: 20px;
+  font-size: 170%;
+}
+#spaciality li {
+  font-size: 135%;
+  margin-bottom: 15px;
+}
+/* SPACIAKITY END */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  #safe-page {
+    height: 800px;
+    background-size: 93%;
+  }
+  #safe-page > div {
+    height: 200px;
+  }
+  #safe-page h1 {
+    font-size: 450%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #football-img p,
+  #music-img p,
+  #reading-img p,
+  #modeling-img p {
+    font-size: 115%;
+  }
+  #safe-page {
+    height: 800px;
+    background-size: 105%;
+  }
+  #safe-page > div {
+    height: 180px;
+  }
+  #safe-page h1 {
+    font-size: 400%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggler {
+    visibility: visible;
+  }
+  #football-img p,
+  #music-img p,
+  #reading-img p,
+  #modeling-img p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 100%;
+  }
+  #safe-page {
+    height: 800px;
+    background-size: 105%;
+  }
+  #safe-page > div {
+    height: 160px;
+  }
+  #safe-page h1 {
+    font-size: 350%;
+  }
+  #characteristic {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 700px;
+  }
+  #characteristic h2 {
+    margin-bottom: 40px;
+  }
+  #characteristic p {
+    font-size: 110%;
+  }
+  #education {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #education > div {
+    margin-bottom: 40px;
+  }
+  #education h3 {
+    margin-bottom: 20px;
+    font-size: 155%;
+  }
+  #education li {
+    font-size: 120%;
+  }
+  #spaciality {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #spaciality > div {
+    margin-bottom: 40px;
+  }
+  #spaciality h3 {
+    margin-bottom: 20px;
+    font-size: 155%;
+  }
+  #spaciality li {
+    font-size: 120%;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-toggler {
+    visibility: visible;
+  }
+  #navbarNav {
+    text-align: center;
+  }
+  #person-img {
+    margin-bottom: 2em;
+  }
+  .fw-light {
+    margin-bottom: 20px;
+  }
+  /* hobbies */
+  #football-img img,
+  #music-img img,
+  #reading-img img,
+  #modeling-img img {
+    width: 300px;
+  }
+  #football-img p,
+  #music-img p,
+  #reading-img p,
+  #modeling-img p {
+    font-size: 100%;
+  }
+  #football-img p {
+    padding-top: 30px;
+  }
+  #music-img p {
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+  #reading-img p {
+    padding-top: 30px;
+  }
+  #modeling-img p {
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* personal information */
+  #safe-page {
+    height: 800px;
+    background-position-y: 30%;
+    background-size: 105%;
+  }
+  #safe-page > div {
+    height: 140px;
+  }
+  #safe-page h1 {
+    font-size: 300%;
+  }
+  /* personakity characterictic */
+  #characteristic {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 600px;
+  }
+  #characteristic h2 {
+    font-size: 150%;
+    margin-bottom: 30px;
+  }
+  #characteristic p {
+    font-size: 100%;
+  }
+  /* education */
+  #education {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 600px;
+  }
+  #education > div {
+    margin-bottom: 35px;
+  }
+  #education h3 {
+    margin-bottom: 20px;
+    font-size: 130%;
+  }
+  #education li {
+    font-size: 100%;
+  }
+  /* spaciality */
+  #spaciality {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 600px;
+  }
+  #spaciality > div {
+    margin-bottom: 35px;
+  }
+  #spaciality h3 {
+    margin-bottom: 20px;
+    font-size: 130%;
+  }
+  #spaciality li {
+    font-size: 100%;
+  }
+}
