@@ -127,7 +127,7 @@
 /* PERSONALITY CHARACTERISTIC START*/
 #characteristic {
   height: 800px;
-  background-color: #dfe1c9;
+  background-color: white;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 60px;
@@ -137,8 +137,8 @@
   margin-bottom: 20px;
 }
 #characteristic h2 {
-  color: red;
-  text-shadow: 1px 3px 5px #000000;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 3px 5px #2e2c2c;
   margin-bottom: 60px;
 }
 #characteristic p {
@@ -168,6 +168,7 @@
 }
 #education h3 {
   margin-bottom: 20px;
+  text-shadow: 1px 3px 5px #2e2c2c;
   font-size: 170%;
 }
 #education li {
@@ -194,6 +195,7 @@
 }
 #spaciality h3 {
   margin-bottom: 20px;
+  text-shadow: 1px 3px 5px #2e2c2c;
   font-size: 170%;
 }
 #spaciality li {
@@ -202,6 +204,7 @@
 }
 /* SPACIAKITY END */
 
+/* large size */
 @media (min-width: 1200px) and (max-width: 1399px) {
   #safe-page {
     height: 800px;
@@ -234,6 +237,7 @@
   }
 }
 
+/* medium size */
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-toggler {
     visibility: visible;
@@ -306,6 +310,7 @@
   }
 }
 
+/* small size */
 @media (max-width: 767px) {
   .navbar-toggler {
     visibility: visible;
@@ -318,6 +323,25 @@
   }
   .fw-light {
     margin-bottom: 20px;
+  }
+  /* spaciality */
+  #spaciality {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    height: 500px;
+  }
+  #spaciality > div {
+    margin-bottom: 35px;
+  }
+  #spaciality h3 {
+    margin-bottom: 20px;
+    font-size: 130%;
+  }
+  #spaciality li {
+    font-size: 100%;
   }
   /* hobbies */
   #football-img img,
@@ -346,41 +370,13 @@
     padding-top: 30px;
     margin-bottom: 30px;
   }
-  /* personal information */
-  #safe-page {
-    height: 800px;
-    background-position-y: 30%;
-    background-size: 105%;
-  }
-  #safe-page > div {
-    height: 140px;
-  }
-  #safe-page h1 {
-    font-size: 300%;
-  }
-  /* personakity characterictic */
-  #characteristic {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 600px;
-  }
-  #characteristic h2 {
-    font-size: 150%;
-    margin-bottom: 30px;
-  }
-  #characteristic p {
-    font-size: 100%;
-  }
   /* education */
   #education {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: -10px;
+    margin-bottom: -5px;
     height: 600px;
   }
   #education > div {
@@ -393,23 +389,196 @@
   #education li {
     font-size: 100%;
   }
+  /* personakity characterictic */
+  #characteristic {
+    margin-top: -10px;
+    margin-bottom: -5px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 500px;
+  }
+  #characteristic h2 {
+    font-size: 150%;
+    margin-bottom: 30px;
+  }
+  #characteristic p {
+    font-size: 100%;
+  }
+  /* personal information */
+  #safe-page {
+    height: 500px;
+    background-position-y: 30%;
+    background-size: 105%;
+  }
+  #safe-page > div {
+    height: 140px;
+  }
+  #safe-page h1 {
+    font-size: 300%;
+  }
+}
+
+/* extra small size */
+@media (max-width: 592px) {
+  /* home */
+  #home-content p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   /* spaciality */
   #spaciality {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 600px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 40px;
+    height: 450px;
+    width: 85%;
+    margin-left: 35px;
   }
   #spaciality > div {
     margin-bottom: 35px;
   }
   #spaciality h3 {
     margin-bottom: 20px;
-    font-size: 130%;
+    font-size: 120%;
   }
   #spaciality li {
     font-size: 100%;
+  }
+  /* hobbies */
+  #football-img img,
+  #music-img img,
+  #reading-img img,
+  #modeling-img img {
+    width: 250px;
+  }
+  #football-img p {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #music-img p {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+  }
+  #reading-img p {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #modeling-img p {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+  }
+  /* education */
+  #education {
+    margin-top: -20px;
+    margin-bottom: -10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 40px;
+    height: 700px;
+    width: 85%;
+    margin-left: 35px;
+  }
+  #education > div {
+    margin-bottom: 40px;
+  }
+  #education h3 {
+    margin-bottom: 15px;
+    font-size: 120%;
+  }
+  #education li {
+    font-size: 100%;
+  }
+  /* personakity characterictic */
+  #characteristic {
+    margin-top: -15px;
+    margin-bottom: -10px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 450px;
+    width: 85%;
+    margin-left: 35px;
+  }
+  #characteristic h2 {
+    font-size: 135%;
+    margin-bottom: 30px;
+  }
+  #characteristic p {
+    font-size: 100%;
+  }
+  /* personal information */
+  #safe-page {
+    height: 450px;
+    background-size: 100%;
+  }
+  #safe-page > div {
+    height: 140px;
+  }
+  #safe-page h1 {
+    font-size: 250%;
+  }
+}
+
+/* super extra small */
+@media (max-width: 430px) {
+  /* education */
+  #education {
+    margin-top: -20px;
+    margin-bottom: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 35px;
+    height: 850px;
+    width: 90%;
+    margin-left: 20px;
+  }
+  #education > div {
+    margin-bottom: 40px;
+  }
+  #education h3 {
+    margin-bottom: 15px;
+    font-size: 120%;
+  }
+  #education li {
+    font-size: 100%;
+  }
+  /* personakity characterictic */
+  #characteristic {
+    margin-top: -15px;
+    margin-bottom: -10px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 600px;
+    width: 90%;
+    margin-left: 20px;
+  }
+  #characteristic h2 {
+    font-size: 135%;
+    margin-bottom: 30px;
+  }
+  #characteristic p {
+    font-size: 100%;
+  }
+  /* personal information */
+  #safe-page {
+    height: 450px;
+    background-size: 90%;
+  }
+  #safe-page > div {
+    height: 150px;
+    margin-top: -25px;
+  }
+  #safe-page h1 {
+    font-size: 250%;
   }
 }
